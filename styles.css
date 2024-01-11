@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Norse;
+    src: url(./fonts/Norse-Bold.otf);
+}
+@font-face {
+    font-family: Norse;
+    font-weight: bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+}
+.form-container {
+    display: flex;
+    height: inherit;
+    width: inherit;
+}
+.image-container {
+    background-image: url(./Images/Background.avif);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    color: azure;
+}
+.image-container p {
+    font-weight: normal;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.image-cage {
+    display: flex;
+    align-self: center;
+    margin-top: 20vh;
+    padding: 20px auto;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Norse;
+    font-size: 1.5rem;
+}
+.credit {
+    margin-bottom: 10px;
+    font-size: small;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+.content-header {
+    margin: 100px 50px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.content-main {
+    margin-left: 50px;
+}
+p {
+    font-weight: bold;
+    margin-left: 12px;
+}
+.data-collection {
+    border-bottom: 2px solid #E5E7EB;
+}
+fieldset {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+fieldset > div {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.enter-system {
+    padding-top: 22px;
+}
+.enter-system > p {
+    font-size: 14px;
+}
+button {
+    margin-left: 12px;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #596D48;
+    color: azure;
+    font-size: 15px;
+}
+input {
+    border: 2px solid #E5E7EB;
+    height: 22px;
+}
+span {
+    color: #596D48;
+}

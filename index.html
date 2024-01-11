@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Sign up form</title>
+</head>
+<body>
+    <div class="form-container">
+        <div class="image-container">
+            <div class="image-cage">
+                <img src="./Images/odin-lined.png" alt="The Odin Logo">
+                <h1>ODIN</h1>
+            </div>
+            <p class="credit">Photo by <u>Halie West</u> on <u>Unsplash</u></p>
+        </div>
+        <div class="content-container">
+            <div class="content-header">
+                <p>This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams. <br>
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <div class="content-main">
+                <form action="#" method="post" novalidate>
+                    <p>Let's do this!</p>
+                    <div class="data-collection">
+                        <fieldset>
+                            <div class="first-name">
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" id="first-name" name="first-name">
+                            </div>
+                            <div class="last-name">
+                                <label for="last-name">LAST NAME</label>
+                                <input type="text" id="last-name" name="last-name">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="email-home">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div class="phone-home">
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="password-key">
+                                <label for="password-1">PASSWORD</label>
+                                <input type="password" id="password-1" name="password-1">
+                            </div>
+                            <div class="password-confirm">
+                                <label for="password-2">CONFIRM PASSWORD</label>
+                                <input type="password" id="password-2" name="password-2">
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="enter-system">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? <span>Log in</span></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
