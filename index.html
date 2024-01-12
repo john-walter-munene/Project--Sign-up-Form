@@ -26,37 +26,42 @@
                 <p>You <em>know</em> you want to.</p>
             </div>
             <div class="content-main">
-                <form action="#" method="post" novalidate>
+                <form action="#" method="post">
                     <p>Let's do this!</p>
                     <div class="data-collection">
                         <fieldset>
                             <div class="first-name">
-                                <label for="first-name">FIRST NAME</label>
-                                <input type="text" id="first-name" name="first-name">
+                                <label for="firstname">FIRST NAME</label>
+                                <input type="text" id="firstname" name="firstname">
+                                <p>Name must be 5 - 12 characters</p>
                             </div>
                             <div class="last-name">
-                                <label for="last-name">LAST NAME</label>
-                                <input type="text" id="last-name" name="last-name">
+                                <label for="lastname">LAST NAME</label>
+                                <input type="text" id="lastname" name="lastname">
+                                <p>Name must be 5 - 12 characters</p>
                             </div>
                         </fieldset>
                         <fieldset>
                             <div class="email-home">
                                 <label for="email">EMAIL</label>
                                 <input type="email" id="email" name="email">
+                                <p>Email must be a valid address, e.g. me@mydomain.com</p>
                             </div>
                             <div class="phone-home">
                                 <label for="phone">PHONE NUMBER</label>
                                 <input type="tel" id="phone" name="phone">
+                                <p>Telephone must be KE (10 digits)</p>
                             </div>
                         </fieldset>
                         <fieldset>
                             <div class="password-key">
-                                <label for="password-1">PASSWORD</label>
-                                <input type="password" id="password-1" name="password-1">
+                                <label for="password1">PASSWORD</label>
+                                <input type="password" id="password1" name="password1">
+                                <p>Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters</p>
                             </div>
                             <div class="password-confirm">
-                                <label for="password-2">CONFIRM PASSWORD</label>
-                                <input type="password" id="password-2" name="password-2">
+                                <label for="password2">CONFIRM PASSWORD</label>
+                                <input type="password" id="password2" name="password2">
                             </div>
                         </fieldset>
                     </div>
